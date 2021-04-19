@@ -1,0 +1,13 @@
+{
+  "data_sources": {
+    "csv": {
+      "poverty": "resources/allpovu.csv"
+    },
+    "api": {
+      "income": "https://apps.bea.gov/api/data/?UserID=41EB9172-D1E2-4C69-A09D-94AA8F280D3D&method=GetData&datasetname=Regional&TableName=CAINC1&LineCode=3&Year=2019&GeoFips=COUNTY&ResultFormat=json"
+    },
+    "sqlite3": {
+      "host": ":memory:"
+    }
+  }
+}
